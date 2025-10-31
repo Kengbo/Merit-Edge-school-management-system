@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368.64 322.98">
+  <defs>
+    <style>
+      .b {
+        fill: #fdfefe;
+        font-family: Poppins-Bold, Poppins;
+        font-size: 39.55px;
+        font-weight: 700;
+      }
+
+      .c {
+        fill: #f9fafd;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="c" points="75.02 216.04 75.02 119.65 147.32 216.04 75.02 216.04"/>
+    <polygon class="c" points="75.02 95.55 171.42 216.04 219.61 216.04 75.02 23.25 75.02 95.55"/>
+    <polygon class="c" points="293.62 216.04 156.51 24.91 156.51 105.95 238.3 216.04 293.62 216.04"/>
+  </g>
+  <text class="b" transform="translate(70.03 275.76)"><tspan x="0" y="0">MERIT EDGE</tspan></text>
+</svg>

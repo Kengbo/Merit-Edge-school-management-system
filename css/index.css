@@ -1,0 +1,78 @@
+
+
+:root {
+    /* ==========================
+       /* Light Theme Colors & Fonts */
+    --lightBg: #f9f9f9;               /* page background */
+    --lightCardBg: #ffffff;           /* card / panel background */
+    --lightBorderColor: #e0e0e0;      /* borders and dividers */
+    
+    /* Font Sizes */
+    --headerText1: 2em;               /* main headings */
+    --headerText2: 1.5em;             /* subheadings */
+    --headerText3: 0.5em;             /* small headers */
+    --bodyText1: 0.35em;              /* main body text */
+    --bodyText2: 0.25em;              /* secondary text */
+    
+    /* Fonts */
+    --headFont1: 'Roboto Mono', monospace;   /* main heading font */
+    --headFont2: 'Rajdhani', sans-serif;     /* secondary heading font */
+    --bodyFont1: 'Inter', sans-serif;        /* main body font */
+    --bodyFont2: 'Roboto', sans-serif;       /* secondary body font */
+    --bodyFont3: 'Orbitron', sans-serif;     /* accent / futuristic font */
+    
+    /* Brand Colors */
+    --darkBrandColor: #242834;       /* primary dark color */
+    --greenBrandColor: #B6FF00;      /* primary accent */
+    --purpleBrandColor: #7D53FF;     /* secondary accent */
+    --accentYellow: #FFD60A;         /* optional highlight */
+    --accentRed: #FF4D4D;            /* errors or alerts */
+    --neutralGray: #9E9E9E;          /* secondary text / disabled items */
+    --neutralLight: #F5F5F5;         /* light elements, cards, tables */
+    
+    /* UI Elements */
+    --buttonRadius: 8px;              /* border radius for buttons */
+    --cardRadius: 12px;               /* border radius for cards / panels */
+    --shadowLight: 0 4px 12px rgba(0,0,0,0.1); /* light shadow for cards */
+    --shadowDark: 0 4px 12px rgba(0,0,0,0.4);  /* darker shadow if needed */
+}
+
+
+   /* Dark Theme Overrides */
+
+[data-theme="dark"] {
+    --bg-color: #1e1e1e;             /* page background */
+    --card-bg: #2A2C3D;              /* card / panel background */
+    --border-color: #3a3a3a;         /* borders and dividers */
+    --text-color: #f2ebeb;           /* main text */
+    --secondary-text: #b0b0b0;       /* secondary text */
+    --shadow: 0 4px 12px rgba(0,0,0,0.6); /* shadow for cards / panels */
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: var(--headFont1);
+}
+
+.day{
+    height: 100vh;
+    width: 100vw;
+    font-family: var(--headFont1);
+    font-size: var(--headerText1);
+    background-color: var(--lightBg);
+}
+.dark{
+
+    height: 100vh;
+    width: 100vw;
+    font-family: var(--headFont);
+    font-size: var(--headerText1);
+    background-color: var(--darkBrandColor);
+    color: var(--darkThemeTextColor);
+}
